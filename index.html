@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exercício - APIs REST</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>APIs REST</h1>
+
+  <section>
+    <h2>🐱 Fato sobre Gatos</h2>
+    <button onclick="getCatFact()">Mostrar Fato</button>
+    <p id="cat-fact"></p>
+  </section>
+
+  <section>
+    <h2>⚽ Escudo de Time de Futebol</h2>
+    <input type="text" id="team-name" placeholder="Digite o nome do time">
+    <button onclick="getTeamLogo()">Buscar Escudo</button>
+    <div><img id="team-logo" src="" alt="Escudo do time"/></div>
+  </section>
+
+  <section>
+    <h2>😂 Piada Aleatória</h2>
+    <button onclick="getJoke()">Contar uma piada</button>
+    <p id="joke-setup"></p>
+    <p id="joke-delivery"></p>
+  </section>
+
+  <section>
+  <h2>🚗 Marcas de Carros</h2>
+  <button onclick="getCarBrands()">Mostrar Marcas</button>
+  <ul id="car-brand-list"></ul>
+</section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
